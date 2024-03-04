@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardoor - Car Rental HTML Template</title>
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <!-- icon -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- js plugin -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" id="themecss"/>
+    <!-- media queary -->
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <!-- loader -->
+    <div class="loader-wrapper" id="loader-wrapper">
+      <div class="loader">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="subline"></div>
+        <div class="subline"></div>
+        <div class="subline"></div>
+        <div class="subline"></div>
+        <div class="subline"></div>
+        <div class="loader-circle-1"><div class="loader-circle-2"></div></div>
+        <div class="needle"></div>
+        <div class="loading">Loading</div>
+      </div>
+    </div>
+    <!-- color palettes -->
+    <div class="color-paletts">
+      <span class="theme-changer">
+        <i class="fa-solid fa-gear"></i>
+      </span>
+    </div>
+    <div class="colors">
+      <ul class="d-flex row-gap-5">
+        <li class="w-4">
+          <span class="color" id="black"></span>
+        </li>
+        <li class="w-4">
+          <span class="color" id="style"></span>
+        </li>
+        <li class="w-4">
+          <span class="color" id="red"></span>
+        </li>
+        <li class="w-4">
+          <span class="color" id="blue"></span>
+        </li>
+        <li class="w-4">
+          <span class="color" id="green"></span>
+        </li>
+        <li class="w-4">
+          <span class="color" id="brown"></span>
+        </li>
+        <li class="w-4">
+          <span class="color" id="purple"></span>
+        </li>
+        <li class="w-4">
+          <span class="color" id="orange"></span>
+        </li>
+        <li class="w-4">
+          <span class="color" id="yellow"></span>
+        </li>
+      </ul>
+    </div>
+    <!-- header -->
+    <header>
+      <!-- topbar -->
+      <div class="topbar d-l-none">
+        <div class="container">
+          <div class="row">
+            <div class="w-3">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>802/2, Mirpur, Dhaka</span>
+            </div>
+            <div class="w-3 text-center">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <span>+1 800 345 678</span>
+            </div>
+            <div class="w-3 text-center">
+              <i class="fa-regular fa-clock"></i>
+              <span>Mon-Fri 09.00 - 17.00</span>
+            </div>
+            <div class="w-3 text-right">
+              <div class="header-social-icons">
+                <a href="javascript:void(0)">
+                  <i class="fa-brands fa-behance"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa-brands fa-pinterest"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+      <div class="navbar">
+        <div class="container">
+          <div class="row">
+            <div class="w-4 w-s-6 w-xs-6">
+              <a href="index.html">
+                <img src="images/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="w-7 w-xxl-8 w-xl-8 d-l-none">
+              <nav class="main-menu">
+                <ul class="d-flex justify-end">
+                  <li class="active dropdown">
+                    <a href="javascript:void(0)">HOME</a>
+                    <div class="dropdown-menu">
+                      <ul>
+                        <li>
+                          <a href="javascript:void(0)">HOME 1</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">HOME 2</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">HOME 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">ABOUT</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">SERVICES</a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="javascript:void(0)">CARS</a>
+                    <div class="dropdown-menu">
+                      <ul>
+                        <li>
+                          <a href="javascript:void(0)">Car Left Sidebar</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">Car Right Sidebar</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">Car Without Sidebar</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">Car Details</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="javascript:void(0)">PAGES</a>
+                    <div class="dropdown-menu">
+                      <ul>
+                        <li>
+                          <a href="javascript:void(0)">PRICING</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">DRIVER</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">FAQ</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">GALLERY</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">HELP DESK</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">LOGIN</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">REGISTER</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">404</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="javascript:void(0)">BLOG</a>
+                    <div class="dropdown-menu">
+                      <ul>
+                        <li>
+                          <a href="javascript:void(0)">BLOG PAGE</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">BLOG DETAILS</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">CONTACT</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="w-1 w-l-8 w-s-6 w-xs-6 d-flex justify-end items-center">
+              <div class="nav-menu d-xxl-none d-xl-none d-l-block">
+                <div class="menu-option">
+                  <a href="javascrit:void(0)">
+                    <i class="fa-solid fa-bars"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- banner -->
+    <section class="banner overlay d-flex items-center">
+      <div class="container">
+        <div class="row">
+          <div class="w-5 w-m-12 w-s-12 w-xs-12">
+            <div class="book-car">
+              <form action="index.html">
+                <div class="picup-location">
+                  <h4>PICK-UP LOCATION:</h4>
+                  <select class="custom-select">
+                    <option value="selected">Select</option>
+                    <option value="1">Dhaka</option>
+                    <option value="2">Comilla</option>
+                    <option value="3">Barishal</option>
+                    <option value="4">Rangpur</option>
+                  </select>
+                </div>
+                <div class="pickup-date">
+                  <h4>PICK-UP DATE:</h4>
+                  <input type="date" placeholder="Pick Up Date" />
+                </div>
+                <div class="return-date">
+                  <h4>RETURN DATE:</h4>
+                  <input type="date" placeholder="Return Date" />
+                </div>
+                <div class="car-type">
+                  <h4>CHOOSE CAR TYPE:</h4>
+                  <select class="custom-select">
+                    <option value="selected">Select</option>
+                    <option value="1">BMW</option>
+                    <option value="2">Audi</option>
+                    <option value="3">Lexus</option>
+                  </select>
+                </div>
+                <div class="book-now-btn text-center">
+                  <button class="book-now">BOOK NOW</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="w-7 w-m-12 w-s-12 w-xs-12 justify-center d-flex items-center">
+            <div class="main-heading text-right">
+              <h1>BOOK A CAR TODAY!</h1>
+              <p>
+                FOR AS LOW AS $10 A DAY PLUS 15% DISCOUNT <br />
+                FOR OUR RETURNING CUSTOMERS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="about py-100">
+      <div class="container">
+        <div class="row">
+          <div class="w-12">
+            <div class="section-title text-center">
+              <h2>ABOUT US</h2>
+              <span class="title-line">
+                <i class="fa-solid fa-car"></i>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="w-6 w-xl-6 w-l-6 w-m-12 d-flex justify-center items-center">
+            <div class="about-content">
+              <p>
+                Lorem simply dummy is a texted of the printing costed and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley of type.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+                aliquid debitis optio praesentium, voluptate repellat
+                accusantium deserunt eius.
+              </p>
+              <div class="about-btn">
+                <a href="javascript:void(0)">BOOK A CAR</a>
+                <a href="javascript:void(0)">CONTACT US</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-6 w-xl-6 w-l-6 w-m-12 d-flex justify-center video">
+            <video controls width="100%" height="100%">
+              <source
+                src="images/FRONX — The Shape of New _ An SUV to match your stride.mp4"
+                type="video/mp4"
+                class="video-play"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- partener area -->
+    <div class="partner-area d-flex justify-evenly">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="images/partner-logo-1.png" alt="partner-logo-1" />
+        </div>
+        <div class="item">
+          <img src="images/partner-logo-3.png" alt="partner-logo-2" class="d-xs-none"/>
+        </div>
+        <div class="item">
+          <img src="images/partner-logo-4.png" alt="partner-logo-3" class="d-m-none"/>
+        </div>
+        <div class="item">
+          <img src="images/partner-logo-5.png" alt="partner-logo-4" class="d-l-none"/>
+        </div>
+        <div class="item">
+          <img src="images/partner-logo-4.png" alt="partner-logo-3" class="d-xl-none" />
+        </div>
+      </div>
+    </div>
+    <!-- SERVICES -->
+    <section class="service">
+      <div class="container">
+        <div class="row">
+          <div class="w-12">
+            <div class="section-title text-center">
+              <h2>OUR SERVICES</h2>
+              <span class="title-line">
+                <i class="fa-solid fa-car"></i>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="w-4 w-m-12">
+            <div class="service-item text-center">
+              <i class="fa-solid fa-taxi"></i>
+              <h3>RENTAL CAR</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                admollitia.
+              </p>
+            </div>
+          </div>
+          <div class="w-4 w-m-12">
+            <div class="service-item text-center">
+              <i class="fa-solid fa-gear"></i>
+              <h3>CAR REPAIR</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                admollitia.
+              </p>
+            </div>
+          </div>
+          <div class="w-4 w-m-12">
+            <div class="service-item text-center">
+              <i class="fa-solid fa-location-dot"></i>
+              <h3>TAXI SERVICE</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                admollitia.
+              </p>
+            </div>
+          </div>
+          <div class="w-4 w-m-12">
+            <div class="service-item text-center">
+              <i class="fa-solid fa-life-ring"></i>
+              <h3>LIFE INSURANCE</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                admollitia.
+              </p>
+            </div>
+          </div>
+          <div class="w-4 w-m-12">
+            <div class="service-item text-center">
+              <i class="fa-solid fa-bath"></i>
+              <h3>CAR WASH</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                admollitia.
+              </p>
+            </div>
+          </div>
+          <div class="w-4 w-m-12">
+            <div class="service-item text-center">
+              <i class="fa-solid fa-phone"></i>
+              <h3>CALL DRIVER</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                admollitia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- choose car -->
+    <section class="choose-car">
+      <div class="container">
+        <div class="row">
+          <div class="w-12">
+            <div class="section-title text-center">
+              <h2>CHOOSE YOUR CAR</h2>
+              <span class="title-line">
+                <i class="fa-solid fa-car"></i>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="w-12">
+            <div class="car-tab">
+              <ul class="car-nav-tab d-flex">
+                <li class="active-tab">
+                  <a href="javascript:void(0)">POPULER CARS</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">NEWEST CARS</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">OUR OFFICE</a>
+                </li>
+              </ul>
+            </div>
+            <div class="car-tab-content">
+              <div class="popcar-menu text-center">
+                <a href="javascript:void(0)" class="active-btn">ALL</a>
+                <a href="javascript:void(0)">CONVER</a>
+                <a href="javascript:void(0)">TRUCK</a>
+                <a href="javascript:void(0)">MPV</a>
+                <a href="javascript:void(0)">SEDAN</a>
+                <a href="javascript:void(0)">SUV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="w-4 w-m-6 w-s-12">
+            <div class="single-popular-car">
+              <div class="p-car-thumbnails">
+                <a href="javascript:void(0)" class="car-hover">
+                  <img
+                    src="images/car-1.jpg .webp"
+                    alt="car1"
+                    class="car-hover"
+                  />
+                </a>
+              </div>
+              <div class="p-car-content">
+                <h3>
+                  <a href="javascript:void(0)">DODGE RAM 1500</a>
+                  <span class="price">
+                    <i class="fa-solid fa-tag"></i>
+                    $55/DAY
+                  </span>
+                </h3>
+                <h5>HATCHBACK</h5>
+                <div class="p-car-feature">
+                  <a href="javascript:void(0)">2017</a>
+                  <a href="javascript:void(0)">MANUAL</a>
+                  <a href="javascript:void(0)">AIR CONDITION</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-4 w-m-6 w-s-12">
+            <div class="single-popular-car">
+              <div class="p-car-thumbnails">
+                <a href="javascript:void(0)" class="car-hover">
+                  <img
+                    src="images/car-2.jpg.webp"
+                    alt="car2"
+                    class="car-hover"
+                  />
+                </a>
+              </div>
+              <div class="p-car-content">
+                <h3>
+                  <a href="javascript:void(0)">DODGE RAM 1500</a>
+                  <span class="price">
+                    <i class="fa-solid fa-tag"></i>
+                    $55/DAY
+                  </span>
+                </h3>
+                <h5>HATCHBACK</h5>
+                <div class="p-car-feature">
+                  <a href="javascript:void(0)">2017</a>
+                  <a href="javascript:void(0)">MANUAL</a>
+                  <a href="javascript:void(0)">AIR CONDITION</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-4 w-m-6 w-s-12">
+            <div class="single-popular-car">
+              <div class="p-car-thumbnails">
+                <a href="javascript:void(0)" class="car-hover">
+                  <img
+                    src="images/car-3.jpg.webp"
+                    alt="car3"
+                    class="car-hover"
+                  />
+                </a>
+              </div>
+              <div class="p-car-content">
+                <h3>
+                  <a href="javascript:void(0)">DODGE RAM 1500</a>
+                  <span class="price">
+                    <i class="fa-solid fa-tag"></i>
+                    $55/DAY
+                  </span>
+                </h3>
+                <h5>HATCHBACK</h5>
+                <div class="p-car-feature">
+                  <a href="javascript:void(0)">2017</a>
+                  <a href="javascript:void(0)">MANUAL</a>
+                  <a href="javascript:void(0)">AIR CONDITION</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-4 w-m-6 w-s-12">
+            <div class="single-popular-car">
+              <div class="p-car-thumbnails">
+                <a href="javascript:void(0)" class="car-hover">
+                  <img
+                    src="images/car-4.jpg.webp"
+                    alt="car4"
+                    class="car-hover"
+                  />
+                </a>
+              </div>
+              <div class="p-car-content">
+                <h3>
+                  <a href="javascript:void(0)">DODGE RAM 1500</a>
+                  <span class="price">
+                    <i class="fa-solid fa-tag"></i>
+                    $55/DAY
+                  </span>
+                </h3>
+                <h5>HATCHBACK</h5>
+                <div class="p-car-feature">
+                  <a href="javascript:void(0)">2017</a>
+                  <a href="javascript:void(0)">MANUAL</a>
+                  <a href="javascript:void(0)">AIR CONDITION</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-4 w-m-6 w-s-12">
+            <div class="single-popular-car">
+              <div class="p-car-thumbnails">
+                <a href="javascript:void(0)" class="car-hover">
+                  <img
+                    src="images/car-5.jpg.webp"
+                    alt="car5"
+                    class="car-hover"
+                  />
+                </a>
+              </div>
+              <div class="p-car-content">
+                <h3>
+                  <a href="#">DODGE RAM 1500</a>
+                  <span class="price">
+                    <i class="fa-solid fa-tag"></i>
+                    $55/DAY
+                  </span>
+                </h3>
+                <h5>HATCHBACK</h5>
+                <div class="p-car-feature">
+                  <a href="javascript:void(0)">2017</a>
+                  <a href="javascript:void(0)">MANUAL</a>
+                  <a href="javascript:void(0)">AIR CONDITION</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-4 w-m-6 w-s-12">
+            <div class="single-popular-car">
+              <div class="p-car-thumbnails">
+                <a href="javascript:void(0)" class="car-hover">
+                  <img
+                    src="images/car-6.jpg.webp"
+                    alt="car6"
+                    class="car-hover"
+                  />
+                </a>
+              </div>
+              <div class="p-car-content">
+                <h3>
+                  <a href="javascript:void(0)">DODGE RAM 1500</a>
+                  <span class="price">
+                    <i class="fa-solid fa-tag"></i>
+                    $55/DAY
+                  </span>
+                </h3>
+                <h5>HATCHBACK</h5>
+                <div class="p-car-feature">
+                  <a href="javascript:void(0)">2017</a>
+                  <a href="javascript:void(0)">MANUAL</a>
+                  <a href="javascript:void(0)">AIR CONDITION</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pricing area -->
+    <section class="pricing-area overlay py-100">
+      <div class="container">
+        <div class="row">
+          <div class="w-12">
+            <div class="section-title text-center">
+              <h2>ONLY QUALITY FOR CLIENTS</h2>
+              <span class="title-line">
+                <i class="fa-solid fa-car"></i>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row row-gap">
+          <div class="w-4 w-m-6 w-s-12 text-center">
+            <div class="single-pricing-table">
+              <h3>BUSINESS</h3>
+              <h2>$ 55.99</h2>
+              <h5>PER MONTH</h5>
+              <ul class="package-list">
+                <li>FREE VEHICLE DELIVERY</li>
+                <li>WEDDINGS CELEBRATIONS</li>
+                <li>FULL INSURANCE INCLUDED</li>
+                <li>TRANSPORT ABROAD</li>
+                <li>ALL INCLUSIVE MINI BAR</li>
+                <li>CHAUFFER INCLUDED IN PRICE</li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-4 w-m-6 w-s-12 text-center">
+            <div class="single-pricing-table">
+              <h3>TRIAL</h3>
+              <h2>FREE</h2>
+              <h5>PER MONTH</h5>
+              <ul class="package-list">
+                <li>FREE VEHICLE DELIVERY</li>
+                <li>OTHER CELEBRATIONS</li>
+                <li>FULL INSURANCE</li>
+                <li>TRANSPORT ABROAD</li>
+                <li>MINI BAR</li>
+                <li>INCLUDED IN PRICE</li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-4 w-m-6 w-s-12 text-center">
+            <div class="single-pricing-table">
+              <h3>STANDARD</h3>
+              <h2>$ 35.99</h2>
+              <h5>PER MONTH</h5>
+              <ul class="package-list">
+                <li>DELIVERY AT AIRPORT</li>
+                <li>WEDDINGS AND OTHER</li>
+                <li>FULL INCLUDED</li>
+                <li>TRANSPORT ABROAD</li>
+                <li>ALL MINI BAR</li>
+                <li>CHAUFFER PRICE</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial -->
+    <section class="testimonial py-100">
+      <div class="container">
+        <div class="row">
+          <div class="w-12">
+            <div class="section-title text-center">
+              <h2>TESTOMONIALS</h2>
+              <span class="title-line">
+                <i class="fa-solid fa-car"></i>
+              </span>
+              <p>Lorem ipsum dolor sit amet elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="w-2"></div>
+          <div class="w-8 w-xl-10 w-s-12 d-flex justify-center">
+            <div class="testimonial-content">
+              <div class="single-testimonial">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                  totam obcaecati impedit, at autem repellat vel magni
+                  architecto veritatis sed.
+                </p>
+                <h3>Vongchong Smith</h3>
+                <div class="client-logo">
+                  <img src="images/client-pic-1.jpg.webp" alt="client-logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-2"></div>
+        </div>
+        <div class="row">
+          <div class="w-12 d-flex justify-center">
+            <div class="owl-dots">
+              <div class="owl-dot owl-dot-active">
+                <span></span>
+              </div>
+              <div class="owl-dot">
+                <span></span>
+              </div>
+              <div class="owl-dot">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- mobile app -->
+    <section class="mobile-app overlay">
+      <div class="container">
+        <div class="row">
+          <div class="w-6 w-m-12">
+            <div class="mobile-app-content">
+              <h2>SAVE 30% WITH THE APP</h2>
+              <p>Easy & Fast - Book a car in 60 seconds</p>
+              <div class="app-btns">
+                <a href="javascript:void(0)">
+                  <i class="fa-brands fa-android"></i>
+                  Android Store
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa-brands fa-apple"></i>
+                  Apple Store
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-6">
+            <div class="mobile-img"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="pt-100">
+      <div class="footer-main">
+        <div class="container">
+          <div class="row row-gap">
+            <div class="w-4 w-m-6 w-s-12">
+              <div class="single-footer-widget">
+                <h2>ABOUT US</h2>
+                <div class="widget-body">
+                  <img src="images/logo.png" alt="logo" />
+                  <p>
+                    Lorem ipsum dolored is a sit ameted consectetur adipisicing
+                    elit. Nobis magni assumenda distinctio <br />
+                    debitis, eum fuga fugiat error reiciendis.
+                  </p>
+                  <div class="newsletter-area">
+                    <form action="index.html">
+                      <input
+                        type="email"
+                        placeholder="Subscibe Our Newsletter"
+                      />
+                      <button type="submit" class="newsletter-btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-4 w-m-6 w-s-12">
+              <div class="single-footer-widget">
+                <h2>RECENT POSTS</h2>
+                <div class="widget-body">
+                  <ul class="recent-posts">
+                    <li>
+                      <a href="#">
+                        Hello Bangladesh!
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        Lorem ipsum dolor sit amet
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        Hello Bangladesh!
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        consectetur adipisicing elit?
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="w-4 w-m-6 w-s-12">
+              <div class="single-footer-widget">
+                <h2>GET TOUCH</h2>
+                <div class="widget-body">
+                  <p>
+                    Lorem ipsum doloer sited amet, consectetur adipisicing elit.
+                    nibh auguea, scelerisque sed
+                  </p>
+                  <ul class="get-touch">
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      800/8, Kazipara, Dhaka
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      +880 01 86 25 72 43
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-envelope"></i>
+                      kazukamdu83@gmail.com
+                    </li>
+                    <a
+                      href="https://www.google.com/"
+                      class="map-show"
+                      target="_blank"
+                      >Show Location</a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="w-12 text-center">
+              <p>
+                Copyright © 2023 All rights reserved | This template is made
+                with
+                <i class="fa-regular fa-heart"></i>
+                by
+                <a href="https://colorlib.com/" target="_blank">Colorib</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jquery library -->
+    <script src="js/jquery.min.js"></script>
+    <!-- js carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- slider js -->
+    <script src="js/slider.js"></script>
+    <!-- jquery js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
